@@ -1,4 +1,4 @@
-#93p 큰수의 법칙
+#93p 그리디 실전 문제 큰수의 법칙
 
 n, m, k = map(int, input().split())
 num = list(map(int, input().split()))
