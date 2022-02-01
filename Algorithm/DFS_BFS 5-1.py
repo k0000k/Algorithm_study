@@ -32,6 +32,7 @@ def dfs(x, y):
 result = 0
 for i in range(n):
     for j in range(m):
+        # 0,0 이 탐색 시작점. 만약 0,0이 방문 가능하면 True를 리턴해서 if문이 실행되고, 이때 0,0과 인접한 칸은 모두 1로 바뀌어있음.
         if dfs(i, j) == True:
             result += 1
 
